@@ -11,16 +11,10 @@ public class Main {
         System.out.print("Ingrese el monto de la compra: ");
         precio = sc.nextDouble();
 
-        if(precio>100){
-
+        if (precio > 100) {
             precio = precio * 0.90;
-
         }
 
-        precio = precio * 1.18;
-
-        System.out.println("Precio final con IGV: S/" + precio);
-
+        System.out.println("Total a pagar: S/" + precio);
     }
-
 }
