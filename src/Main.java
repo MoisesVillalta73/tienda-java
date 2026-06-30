@@ -17,7 +17,9 @@ public class Main {
 
         }
 
-        System.out.println("Total a pagar: S/" + precio);
+        precio = precio * 1.18;
+
+        System.out.println("Precio final con IGV: S/" + precio);
 
     }
 
