@@ -11,6 +11,12 @@ public class Main {
         System.out.print("Ingrese el monto de la compra: ");
         precio = sc.nextDouble();
 
+        if(precio>100){
+
+            precio = precio * 0.90;
+
+        }
+
         System.out.println("Total a pagar: S/" + precio);
 
     }
